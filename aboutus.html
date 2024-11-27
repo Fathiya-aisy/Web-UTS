@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warung Mak'e</title>
+    <link rel="stylesheet" href="uts.css">
+    <link rel="icon" type="images" href="img/logo warung ma'e.jpg">
+    <script src="https://kit.fontawesome.com/5890549356.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+
+        <div class="sidebar">
+            <header>Warung Mak'e</header>
+            <ul>
+                <li><a href="artikel1.html" target="_blank"><i class="fa-solid fa-paperclip" style="color: #fcfcfc;"></i></i>Article-1</a></li>
+                <li><a href="artikel2.html" target="_blank"><i class="fa-solid fa-paperclip" style="color: #fcfcfc;"></i></i>Article-2</a></li>
+                <li><a href="artikel3.html" target="_blank"><i class="fa-solid fa-paperclip" style="color: #fcfcfc;"></i>Article-3</a></li>
+                <li><a href="artikel4.html" target="_blank"><i class="fa-solid fa-paperclip" style="color: #fcfcfc;"></i>Article-4</a></li>
+                <li><a href="artikel5.html" target="_blank"><i class="fa-solid fa-paperclip" style="color: #fcfcfc;"></i>Article-5</a></li>
+            </ul>
+        </div>
+
+        <div class="navbar-judul">
+           <a href="#"><h1>Warung Mak'e</h1></a> 
+        </div>
+
+        <div class="navbartoogle">
+            <a href="uts.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="review.html">Review</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+
+    <script type="text/javascript">
+        var lastScrollTop = 0;
+            navbar = document.getElementById("navbar");
+        window.addEventListener("scroll", function(){
+            var scrollTop = window.pageYOffset || document
+                .documentElement.scrollTop;
+            if (scrollTop > lastScrollTop){
+                navbar.style.top='-80px';
+            } else {
+                navbar.style.top="0";
+            }
+            lastScrollTop = scrollTop;
+        })
+    </script>
+
+<!--Isi Profile-->
+<section class="intro-about"></section>
+<div class="profile">
+    <h2>Profil</h2>
+</div>
+
+<div class="content-profile">
+    <p>Selamat datang di Warung Mak'e, tempat di mana cita rasa tradisional bertemu dengan kehangatan keluarga! 
+        Kami adalah warung makan yang menyajikan hidangan lezat dengan resep-resep turun temurun yang sudah teruji 
+        kelezatannya. Di Warung Mak'e, kami percaya bahwa makanan adalah cara terbaik untuk menghubungkan orang-orang, 
+        berbagi cerita, dan menciptakan kenangan indah bersama orang terdekat. Kami menggunakan bahan-bahan berkualitas
+        dan segar, dengan perhatian khusus pada rasa dan penyajian. Setiap hidangan yang kami tawarkan dipersiapkan dengan 
+        penuh cinta dan dedikasi, menjadikan setiap suapan sebagai pengalaman yang menyenangkan.Warung Mak'e bukan hanya 
+        tempat makan, tetapi juga tempat berkumpul, berbagi kebahagiaan, dan menikmati momen sederhana namun berarti. Baik itu makan siang santai, 
+        makan malam bersama keluarga, atau sekadar menikmati camilan khas, kami siap melayani dengan sepenuh 
+        hati.</p>
+</div>
+<div class="content-profile2">
+    <p>Warung Mak'e adalah sebuah usaha kuliner yang menyediakan berbagai hidangan khas Indonesia dengan cita 
+    rasa autentik. Warung ini dikenal dengan konsep penyajian yang sederhana namun hangat, mengutamakan kualitas bahan-bahan segar 
+    dan pelayanan yang ramah. Dengan atmosfer yang nyaman dan bersahaja, Warung Mak'e menjadi tempat yang tepat bagi para pencinta makanan tradisional
+    Indonesia untuk menikmati hidangan lezat dalam suasana yang akrab dan menyenangkan. Mari bergabung bersama kami di Warung Mak'e dan rasakan kelezatannya!</p>
+</div>
+
+<!--Isi-Sejarah-->
+<div class="sejarah">
+    <h2>Sejarah</h2>
+</div>
+
+<div class="content-sejarah">
+    <p>Warung Mak'e didirikan pada tanggal 24 Juni 2024 oleh Ibu Jumini. Inspirasi utama dari pendirian warung 
+    ini berawal dari kecintaan sang pendiri terhadap masakan rumahan Indonesia yang penuh rasa dan tradisi. 
+    Dengan keinginan untuk memberikan pengalaman kuliner yang dekat dengan rumah, Warung Mak'e menawarkan 
+    hidangan-hidangan yang berasal dari resep-resep keluarga turun-temurun, yang sudah terkenal di kalangan masyarakat lokal.
+    Seiring berjalannya waktu, Warung Mak'e semakin dikenal karena kualitas makanannya yang konsisten serta 
+    pelayanan yang hangat dan ramah. Usaha ini berkembang dengan pesat, berkat rekomendasi dari pelanggan setia 
+    yang terus datang untuk menikmati hidangan khas yang menggugah selera.</p>
+</div>
+
+<!--Isi Visi dan Misi-->
+<div class="Visi-misi">
+    <h2>Visi dan Misi</h2>
+</div>
+
+<div class="Visi"><strong><h3>VISI</h3></strong></div>
+<div class="content-Visi">
+    <p>Menjadi warung makan terdepan dalam menghadirkan masakan Indonesia yang autentik, bergizi, dan berkualitas, serta 
+        menjadi tempat yang membawa pelanggan kembali ke kenangan indah tentang kehangatan rumah dan keluarga.</p>
+    <br>
+</div>
+    <div class="Misi"><strong><h3>MISI</h3></strong></div>
+    <div class="content-Misi">
+        <ol>
+            <li><i>Menyediakan Hidangan Berkualitas:</i>Memberikan makanan yang lezat dan bergizi dengan menggunakan 
+                bahan-bahan segar dan berkualitas.</li>
+            <li><i>Mengutamakan Pelayanan yang Ramah:</i>Menyediakan pengalaman makan yang nyaman, dengan pelayanan yang 
+                cepat dan ramah, menciptakan suasana seperti makan di rumah sendiri.</li>
+            <li><i>Melestarikan Masakan Tradisional:</i>Menjaga dan melestarikan resep-resep masakan Indonesia yang sudah
+                 ada sejak turun-temurun agar tetap bisa dinikmati oleh generasi sekarang.</li>
+            <li><i>Memberikan Pengalaman Kuliner yang Unik:</i>Menciptakan pengalaman makan yang tidak hanya mengenyangkan, 
+                tetapi juga menggugah selera dan membawa kenangan manis bagi setiap pelanggan.</li>
+        </ol>
+    </div>
+</div>
+
+<!--Isi-Tujuan-->
+<div class="Tujuan">
+    <h2>Tujuan</h2>
+</div>
+
+<div class="content-Tujuan">
+    <ol>
+        <li><i>Meningkatkan Cinta Terhadap Kuliner Indonesia:</i>Menjadi jembatan yang memperkenalkan dan 
+            mengedukasi masyarakat tentang kekayaan kuliner tradisional Indonesia.</li>
+        <li><i>Mencapai Kepuasan Pelanggan:</i>Memastikan bahwa setiap pelanggan merasa puas dengan pelayanan dan 
+            makanan yang disajikan, sehingga mereka ingin kembali lagi.</li>
+        <li><i>Mengembangkan Usaha Secara Berkelanjutan:</i>Mengembangkan Warung Mak'e menjadi salah satu brand kuliner 
+            yang terkenal di seluruh Indonesia, dengan tetap menjaga kualitas dan prinsip usaha 
+            yang berkelanjutan.</li>
+    </ol>
+</div>
+
+<!--Footer-->
+<div class="footer">
+    <footer>
+        <h2 class="h2-footer">Our Social Media</h2>
+        <div class="icons">
+        <a href="https://www.instagram.com/warung__mae?igsh=Y3A5eW5ueDh3ODQy" target="_blank"><i class="fa-brands fa-square-instagram fa-flip fa-2xl" style="color: black;"></i></a>
+        <a href="https://www.tiktok.com/@gultikkemayoran?_t=8revr7byZoQ&_r=1" target="_blank"><i class="fa-brands fa-tiktok fa-flip fa-2xl" style="color: black;"></i></a>
+        </div>
+        <br>
+        <p>Copyright©2024|Warung Mak'e</p>
+        <p>Design by Fathiya Rahadatul Aisy-11220251000113-5B-Ilmu Perpustakaan</p>
+    </footer>
+</div>
+</body>
+</html>

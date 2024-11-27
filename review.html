@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warung Mak'e</title>
+    <link rel="stylesheet" href="uts.css">
+    <link rel="icon" type="images" href="img/logo warung ma'e.jpg">
+    <script src="https://kit.fontawesome.com/5890549356.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+
+        <div class="sidebar">
+            <header>Warung Mak'e</header>
+            <ul>
+                <li><a href="artikel1.html" target="_blank"><i class="fa-solid fa-paperclip" style="color: #fcfcfc;"></i></i>Article-1</a></li>
+                <li><a href="artikel2.html" target="_blank"><i class="fa-solid fa-paperclip" style="color: #fcfcfc;"></i></i>Article-2</a></li>
+                <li><a href="artikel3.html" target="_blank"><i class="fa-solid fa-paperclip" style="color: #fcfcfc;"></i>Article-3</a></li>
+                <li><a href="artikel4.html" target="_blank"><i class="fa-solid fa-paperclip" style="color: #fcfcfc;"></i>Article-4</a></li>
+                <li><a href="artikel5.html" target="_blank"><i class="fa-solid fa-paperclip" style="color: #fcfcfc;"></i>Article-5</a></li>
+            </ul>
+        </div>
+
+        <div class="navbar-judul">
+           <a href="#"><h1>Warung Mak'e</h1></a> 
+        </div>
+
+        <div class="navbartoogle">
+            <a href="uts.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="review.html">Review</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+
+    <script type="text/javascript">
+        var lastScrollTop = 0;
+            navbar = document.getElementById("navbar");
+        window.addEventListener("scroll", function(){
+            var scrollTop = window.pageYOffset || document
+                .documentElement.scrollTop;
+            if (scrollTop > lastScrollTop){
+                navbar.style.top='-80px';
+            } else {
+                navbar.style.top="0";
+            }
+            lastScrollTop = scrollTop;
+        })
+    </script>
+
+    <!--Isi review-->
+<div class="Review-content">
+    <h2>Rate</h2>
+</div>
+
+<section id="testimonials">
+    <!-- testimonials box container -->
+    <div class="testimonials-box-container">
+        <!-- box 1 -->
+        <div class="testimonials-box">
+            <!-- top -->
+            <div class="box-top">
+                <!-- profile -->
+                <div class="profile">
+                    <div class="profile-img">
+                        <img src="img/panda.jpg">
+                    </div>
+                    <!-- name-email -->
+                    <div class="name-user">
+                        <strong>Nia</strong>
+                        <span>@niatun</span>
+                    </div>
+                </div>
+                <!-- review -->
+                <div class="reviews">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-regular fa-star" style="color: #151314;"></i>
+                </div>
+            </div>
+            <!--isi review-->
+            <div class="review-comment">
+                <p>"Warung Mak'e menawarkan hidangan Indonesia autentik dengan rasa yang luar biasa. Soto
+                    Betawi dan nasi bakarnya sangat lezat, dengan pelayanan ramah dan suasana yang nyaman. 
+                    Tempat makan yang wajib dikunjungi!"</p>
+            </div>
+        </div>
+
+        <!-- box 2 -->
+        <div class="testimonials-box">
+            <!-- top -->
+            <div class="box-top">
+                <!-- profile -->
+                <div class="profile">
+                    <div class="profile-img">
+                        <img src="img/dina.jpg">
+                    </div>
+                    <!-- name-email -->
+                    <div class="name-user">
+                        <strong>Dina</strong>
+                        <span>@DinaRosdiana-z5i</span>
+                    </div>
+                </div>
+                <!-- review -->
+                <div class="reviews">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                </div>
+            </div>
+            <!--isi review-->
+            <div class="review-comment">
+                <p>"Rasa makanan di Warung Mak'e benar-benar memanjakan lidah! Soto Betawi yang gurih dan nasi 
+                    bakar yang harum selalu jadi favorit saya dan keluarga. Pelayanannya juga cepat dan 
+                    suasananya sangat nyaman."</p>
+            </div>
+        </div>
+
+        <!-- box 3 -->
+        <div class="testimonials-box">
+            <!-- top -->
+            <div class="box-top">
+                <!-- profile -->
+                <div class="profile">
+                    <div class="profile-img">
+                        <img src="img/desty.jpg">
+                    </div>
+                    <!-- name-email -->
+                    <div class="name-user">
+                        <strong>Desty</strong>
+                        <span>@dstyyy</span>
+                    </div>
+                </div>
+                <!-- review -->
+                <div class="reviews">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                </div>
+            </div>
+            <!--isi review-->
+            <div class="review-comment">
+                <p>"Warung Mak'e adalah tempat yang sempurna untuk menikmati masakan Indonesia yang autentik 
+                    dengan harga yang ramah di kantong. Dengan rasa yang enak, pelayanan yang baik, 
+                    dan suasananya juga nyaman"</p>
+            </div>
+        </div>
+
+        <!-- box 4 -->
+        <div class="testimonials-box">
+            <!-- top -->
+            <div class="box-top">
+                <!-- profile -->
+                <div class="profile">
+                    <div class="profile-img">
+                        <img src="img/nadhif.jpg">
+                    </div>
+                    <!-- name-email -->
+                    <div class="name-user">
+                        <strong>Athaya</strong>
+                        <span>@nadhifathaya</span>
+                    </div>
+                </div>
+                <!-- review -->
+                <div class="reviews">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-regular fa-star" style="color: #151314;"></i>
+                </div>
+            </div>
+            <!--isi review-->
+            <div class="review-comment">
+                <p>"Warung Mak'e merupakan tempat makan yang tak hanya menyajikan masakan enak, tetapi juga menciptakan suasana 
+                    yang nyaman. Bakso yang disajikan di sini benar-benar menggugah selera serta Suasana yang santai dan staf 
+                    yang ramah membuat saya selalu ingin kembali."</p>
+            </div>
+        </div>
+
+        <!-- box 5 -->
+        <div class="testimonials-box">
+            <!-- top -->
+            <div class="box-top">
+                <!-- profile -->
+                <div class="profile">
+                    <div class="profile-img">
+                        <img src="img/dinda.jpg">
+                    </div>
+                    <!-- name-email -->
+                    <div class="name-user">
+                        <strong>ndaa</strong>
+                        <span>@daayll</span>
+                    </div>
+                </div>
+                <!-- review -->
+                <div class="reviews">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-regular fa-star" style="color: #151314;"></i>
+                </div>
+            </div>
+            <!--isi review-->
+            <div class="review-comment">
+                <p>"Bakso di warung Mak'e rasanya enak, gurih, cocok di lidah saya sebagai pecinta bakso.
+                    Menunya juga beragam, cuman saya belum nyoba semuanya sih. Warungnya juga bersih dan
+                     juga nyaman. Saya besok akan kembali lagi ke warung mak'e dengan teman-teman saya"</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Footer-->
+<div class="footer">
+    <footer>
+        <h2 class="h2-footer">Our Social Media</h2>
+        <div class="icons">
+        <a href="https://www.instagram.com/warung__mae?igsh=Y3A5eW5ueDh3ODQy" target="_blank"><i class="fa-brands fa-square-instagram fa-flip fa-2xl" style="color: black;"></i></a>
+        <a href="https://www.tiktok.com/@gultikkemayoran?_t=8revr7byZoQ&_r=1" target="_blank"><i class="fa-brands fa-tiktok fa-flip fa-2xl" style="color: black;"></i></a>
+        </div>
+        <br>
+        <p>Copyright©2024|Warung Mak'e</p>
+        <p>Design by Fathiya Rahadatul Aisy-11220251000113-5B-Ilmu Perpustakaan</p>
+    </footer>
+</div>
+</body>
+</html>
